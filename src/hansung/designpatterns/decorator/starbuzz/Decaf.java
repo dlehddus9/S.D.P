@@ -3,7 +3,9 @@ package hansung.designpatterns.decorator.starbuzz;
 public class Decaf extends Beverage {
 	public Decaf(BeverageSize bSize)
 	{
-		description = "디카페인 커피";
+		description = ""+bSize+"디카페인커피";
+		setSize(bSize);
+
 		setSize(bSize);
 	}
  

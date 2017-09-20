@@ -2,8 +2,9 @@ package hansung.designpatterns.decorator.starbuzz;
 
 public class DarkRoast extends Beverage {
 	public DarkRoast(BeverageSize bSize) {
-		description = "다크 로스트 커피";
+		description = ""+bSize+"다크 로스트 커피";
 		setSize(bSize);
+
 	}
  
 	public double cost() {

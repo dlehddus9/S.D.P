@@ -3,8 +3,9 @@ package hansung.designpatterns.decorator.starbuzz;
 public class HouseBlend extends Beverage {
 	public HouseBlend(BeverageSize bSize)
 	{
-		description = "하우스 블렌드 커피";
+		description = ""+bSize+"하우스 블렌드 커피";
 		setSize(bSize);
+
 	}
  
 	public double cost() {
