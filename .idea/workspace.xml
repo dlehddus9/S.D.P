@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d97101d-8eaf-4ac5-ad99-0be4d668e59c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/DarkRoast.java" afterPath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/DarkRoast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/Decaf.java" afterPath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/Decaf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/HouseBlend.java" afterPath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/HouseBlend.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/Whip.java" afterPath="$PROJECT_DIR$/src/hansung/designpatterns/decorator/starbuzz/Whip.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -378,12 +374,20 @@
       <workItem from="1505718509552" duration="1437000" />
       <workItem from="1505791620810" duration="7674000" />
       <workItem from="1505866177949" duration="10000" />
-      <workItem from="1505878517519" duration="857000" />
+      <workItem from="1505878517519" duration="923000" />
     </task>
+    <task id="LOCAL-00001" summary="일부 코드수정">
+      <created>1505879389463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505879389463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10942000" />
+    <option name="totallyTimeSpent" value="11008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -422,6 +426,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="일부 코드수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="일부 코드수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
