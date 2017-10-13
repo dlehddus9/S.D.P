@@ -1,9 +1,12 @@
 package hansung.designpatterns.command.party;
 
+import java.util.Stack;
+
 //
 // This is the invoker
 //
 public class RemoteControl {
+	private Stack<Command> mCommandStack = new Stack<Command>();
 	Command[] onCommands;
 	Command[] offCommands;
 	Command undoCommand;
@@ -26,17 +29,24 @@ public class RemoteControl {
 	}
  
 	public void onButtonWasPushed(int slot) {
-		onCommands[slot].execute();
+
 		undoCommand = onCommands[slot];
+		onCommands[slot].execute();
+		mCommandStack.push(undoCommand);
 	}
  
 	public void offButtonWasPushed(int slot) {
-		offCommands[slot].execute();
+
 		undoCommand = offCommands[slot];
+		offCommands[slot].execute();
+		mCommandStack.push(undoCommand);
 	}
 
 	public void undoButtonWasPushed() {
-		undoCommand.undo();
+		if(mCommandStack.size()>0)
+		{
+			mCommandStack.pop().undo();
+		}
 	}
  
 	public String toString() {
