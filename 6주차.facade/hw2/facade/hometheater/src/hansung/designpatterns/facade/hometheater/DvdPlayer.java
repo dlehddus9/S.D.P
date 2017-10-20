@@ -14,5 +14,8 @@ public interface DvdPlayer {
 	public void setTwoChannelAudio();
 	public void setSurroundAudio();
 	public String toString();
+	public void request();
+
+
 }
 

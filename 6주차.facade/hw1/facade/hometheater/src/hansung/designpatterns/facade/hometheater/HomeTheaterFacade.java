@@ -42,8 +42,8 @@ public class HomeTheaterFacade {
 		amp.setSurroundSound();
 		amp.setVolume(5);
 		dvd.on();
+		dvd.play(20);
 		dvd.setSurroundAudio();
-		dvd.play(movie);
 	}
  
  
