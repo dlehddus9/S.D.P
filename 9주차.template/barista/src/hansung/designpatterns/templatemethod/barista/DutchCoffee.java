@@ -11,4 +11,7 @@ public class DutchCoffee extends CaffeineBeverage {
         System.out.println("첨가물을 추가합니까?");
 
     }
+    void boilWater() {
+        System.out.println();
+    }
 }

@@ -8,6 +8,10 @@ public class DutchCoffeeWithHook extends CaffeineBeverageWithHook {
     }
 
     @Override
+    protected void boilWater() {
+    }
+
+    @Override
     protected void store() {
         System.out.println("1~2일 저온에서 숙성");
     }
